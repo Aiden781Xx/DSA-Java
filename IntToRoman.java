@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class IntToRoman {
     public int romanToInt(String s) {
         int number = 0;
@@ -45,8 +43,11 @@ public class IntToRoman {
         return number;
     }
 
-    public static void main(String args[]) {
-        Solution solution = new Solution();
-        System.out.println(solution.romanToInt("MCMXV"));  
+    public static void main(String[] args) {
+        // Instantiate the IntToRoman class
+        IntToRoman solution = new IntToRoman();
+        
+        // Call the romanToInt method and print the result
+        System.out.println(solution.romanToInt("MCMXVI"));  
     }
 }
